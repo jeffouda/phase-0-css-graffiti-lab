@@ -1,1 +1,26 @@
 /* write your override styles here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+}
+#wall {
+  padding: 2px;
+  color: azure;
+  font-size: 6px;
+}
+#tag-1 {
+  display: block;
+  list-style: none;
+  max-width: 300;
+}
+#tag-4 {
+  border: 2px solid gray;
+  color: beige;
+  text-align: center;
+  padding: 10% 0 2%;
+}
